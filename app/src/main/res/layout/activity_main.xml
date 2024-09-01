@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="736dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logoo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="377dp"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text="SELECT A ZONE TO CONTINUE"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <Button
+        android:id="@+id/X"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#101010"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="X"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="@+id/map"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.389" />
+
+    <Button
+        android:id="@+id/G"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#101010"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="G"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/map"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <Button
+        android:id="@+id/B"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#101010"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="B"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="@+id/map"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <Button
+        android:id="@+id/D"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#101010"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="D"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="@+id/map"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <Button
+        android:id="@+id/R"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#101010"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="R"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="@+id/map"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <Button
+        android:id="@+id/TY"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#101010"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="TY"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintStart_toStartOf="@+id/map"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <Button
+        android:id="@+id/TR"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#101010"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="TR"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="@+id/map"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        app:layout_constraintVertical_bias="0.199" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
