@@ -36,7 +36,7 @@ This project is an Android app mockup for a fictional Jurassic Park management s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/jurassic-park-app.git
+   git clone https://github.com/Jaime1108/Jurassic-Park-Management-App-lab-5.git
 Open the project in Android Studio.
 Sync the project with Gradle files.
 Build and run the app on an Android emulator or a physical device.
